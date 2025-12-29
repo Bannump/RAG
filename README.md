@@ -189,7 +189,7 @@ Examples:
   python -m src.my_personal_agent.cli vehicle --image car_dashboard.jpg --description "Car won't start"
 
   # Resume analysis
-  python -m src.my_personal_agent.cli analyze-resume --resume my_resume.pdf --job-description "Software Engineer position..."
+  python -m src.my_personal_agent.cli analyze-resume --resume my_resume.pdf --job-description jd.pdf
 
   # Build resume
   python -m src.my_personal_agent.cli build-resume --input-file resume_data.json
